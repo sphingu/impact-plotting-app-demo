@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Hazel",
+        "last": "Thompson"
+      },
+      "location": {
+        "street": {
+          "number": 9772,
+          "name": "Prestons Road"
+        },
+        "city": "Whanganui",
+        "state": "Bay of Plenty",
+        "country": "New Zealand",
+        "postcode": 69423,
+        "coordinates": {
+          "latitude": "64.6539",
+          "longitude": "135.5411"
+        },
+        "timezone": {
+          "offset": "-11:00",
+          "description": "Midway Island, Samoa"
+        }
+      },
+      "email": "hazel.thompson@example.com",
+      "login": {
+        "uuid": "6cc0fbe1-a17f-47a8-a7c1-5212cffb0fc7",
+        "username": "beautifulfrog254",
+        "password": "rush2112",
+        "salt": "fD8EOF3B",
+        "md5": "f00632d50b3e8e784a1f223ad097b521",
+        "sha1": "ff04b11e157de2d078a6ada8a086ca9d39a1c152",
+        "sha256": "6ad7cfaa9048a8dc026f46402cec2aa93e6d17022d96822fa222dc0e78e096e9"
+      },
+      "dob": {
+        "date": "1951-05-05T05:47:11.738Z",
+        "age": 70
+      },
+      "registered": {
+        "date": "2004-07-09T17:17:15.704Z",
+        "age": 17
+      },
+      "phone": "(996)-097-4935",
+      "cell": "(449)-285-3084",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/75.jpg"
+      },
+      "nat": "NZ"
+    }
+  ],
+  "info": {
+    "seed": "8e7eba6be2d3b138",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}

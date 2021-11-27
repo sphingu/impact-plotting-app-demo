@@ -1,0 +1,41 @@
+.UserList {
+  position: absolute;
+  bottom: -50vh;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffffaa;
+  transition: 1s ease all;
+  height: 0;
+  > * {
+    display: none;
+  }
+  &.show {
+    height: 50vh;
+    bottom: 0;
+    > * {
+      display: block;
+    }
+  }
+  .close {
+    position: absolute;
+    background: white;
+    right: 0;
+    top: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    padding: 5px;
+    background: white;
+  }
+  .error {
+    color: red;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,15 @@
+.Home {
+  h1 {
+    position: absolute;
+    left: calc(50% - 161px);
+    z-index: 10000;
+    color: #000000a1;
+    background: #15dfed6b;
+    padding: 10px;
+    &:hover {
+      cursor: pointer;
+      background: #000000;
+      color: #15dfed;
+    }
+  }
+}
